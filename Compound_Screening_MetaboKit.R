@@ -233,4 +233,4 @@ addWorksheet(wb, "Raw Data")
 writeData(wb, "Raw Data", data)
 
 # Save the workbook with the added "Raw Data" sheet as the last sheet
-saveWorkbook(wb, paste0(mode_prefix, "_filename.xlsx"), overwrite = TRUE)
+saveWorkbook(wb, paste0(mode_prefix, "_filename_.xlsx"), overwrite = TRUE)
