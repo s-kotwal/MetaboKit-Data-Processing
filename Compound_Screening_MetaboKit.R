@@ -1,5 +1,6 @@
 # *Please cite [paper] and github repository if being used.*
 
+# Refer to 'example_files' for example script and .tsv files. Also additional raw .mzML files and processed data using MetaboKit.
 # Presented is a code used to automatically filter .tsv files "Report_RTseparated" or "Report_RTseparated_fill" that are auto-generated from processing Mass Spec .mzML files using MetaboKit. The final output is a file that removes duplicate annotations, filter compounds based blanks, abundance cutoffs, etc. 
 # Must have blank and experimental samples in MetaboKit .tsv as 'pos-sample-it1' to indicate mode, sample name, and number of iterative injection.
 # This code takes into account rows where if a blank has an annotation, it is included only if one of the experimental samples is 3x greater than the average of non-zero blanks.
